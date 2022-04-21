@@ -1,0 +1,111 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box; }
+
+body {
+  font: 14px/1.2 "Arial", "Helvetica", sans-serif;
+  color: #999;
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
+
+.main {
+  flex-grow: 1; }
+
+ul {
+  list-style-type: none;
+  display: flex; }
+
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none; }
+
+.logo {
+  padding: 45px; }
+
+.login {
+  margin-top: 60px; }
+
+.login a {
+  border: 1px solid white;
+  padding: 5px 20px;
+  border-radius: 6px;
+  color: white;
+  margin-top: 20px; }
+
+.login a:hover {
+  border: 1px solid #5e8ee9;
+  padding: 5px 20px;
+  border-radius: 6px; }
+
+.nav {
+  padding: 60px;
+  padding-left: 2%;
+  padding-right: 9%; }
+
+.nav li {
+  padding: 0 30px; }
+
+.nav li a {
+  color: white; }
+
+.intro {
+  background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%), url(../../images/rectangle.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  margin-top: -136px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20%; }
+
+.intro p {
+  padding: 40px 0; }
+
+.intro a {
+  border: solid white;
+  background-color: white;
+  padding: 20px 60px;
+  border-radius: 6px;
+  position: absolute;
+  left: 45%;
+  top: 72%; }
+
+.intro a:hover {
+  border: solid #5e8ee9;
+  background-color: white;
+  padding: 20px 60px;
+  border-radius: 6px;
+  position: absolute;
+  left: 45%;
+  top: 72%; }
+
+.sign_up {
+  color: #ed4c5c; }
+
+.intro h1 {
+  color: white;
+  font-size: 72px;
+  text-transform: uppercase; }
+
+.intro p {
+  color: white;
+  font-size: 24px; }
+
+/*# sourceMappingURL=style.map */
